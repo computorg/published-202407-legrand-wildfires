@@ -1,0 +1,4 @@
+project:
+  title: "published-202407-legrand-wildfires"
+  render:
+    - "published-202407-legrand-wildfires.qmd"

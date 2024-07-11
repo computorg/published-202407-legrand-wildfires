@@ -24,7 +24,7 @@ keywords: [Climate projection, Integrated Nested Laplace Approximation, Marked l
 citation:
   type: article-journal
   container-title: "Computo"
-  doi: "xxxx"
+  doi: "10.57750/4y84-4t68"
   url: https://computo.sfds.asso.fr/
 bibliography: references.bib
 github-user: computorg
