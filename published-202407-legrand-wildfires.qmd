@@ -29,6 +29,7 @@ citation:
   doi: "10.57750/4y84-4t68"
   url: https://computo.sfds.asso.fr/published-202407-legrand-wildfires/
   pdf-url: https://computo.sfds.asso.fr/published-202407-legrand-wildfires/published-202407-legrand-wildfires.pdf
+  issn: "2824-7795"
 bibliography: references.bib
 google-scholar: true
 github-user: computorg
