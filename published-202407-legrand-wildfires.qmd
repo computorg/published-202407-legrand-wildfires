@@ -17,20 +17,24 @@ author:
     url: https://biosp.mathnum.inrae.fr/homepage-thomas-opitz
     affiliation: Biostatistics and Spatial Processes, INRAE, Avignon, France
     affiliation-url: https://biosp.mathnum.inrae.fr/
-date: last-modified
+date: 07/12/2024
+date-modified: last-modified
 abstract: >+
    Appropriate spatiotemporal modelling of wildfire activity is crucial for its prediction and risk management. Here, we focus on wildfire risk in the Aquitaine region in the Southwest of France and its projection under climate change. We study whether wildfire risk could further increase under climate change in this specific region, which does not lie in the historical core area of wildfires in Southeastern France, corresponding to the Southwest. For this purpose, we consider a marked spatiotemporal point process, a flexible model for occurrences and magnitudes of such environmental risks, where the magnitudes are defined as the burnt areas. The model is first calibrated using 14 years of past observation data of wildfire occurrences and weather variables, and then applied for projection of climate-change impacts using simulations of numerical climate models until 2100 as new inputs. We work within the framework of a spatiotemporal Bayesian hierarchical model, and we present the workflow of its implementation for a large dataset at daily resolution for 8km-pixels using the INLA-SPDE approach. The assessment of the posterior distributions shows a satisfactory fit of the model for the observation period. We stochastically simulate projections of future wildfire activity by combining climate model output with posterior simulations of model parameters. Depending on climate models, spline-smoothed projections indicate low to moderate increase of wildfire activity under climate change. The increase is weaker than in the historical core area, which we attribute to different weather conditions (oceanic versus Mediterranean). Besides providing a relevant case study of environmental risk modelling, this paper is also intended to provide a full workflow for implementing the Bayesian estimation of marked log-Gaussian Cox processes using the R-INLA package of the R statistical software.
 keywords: [Climate projection, Integrated Nested Laplace Approximation, Marked log-Gaussian Cox process, Spatiotemporal model, SPDE approach, Wildfire]
 citation:
   type: article-journal
   container-title: "Computo"
+  publisher: "French Statistical Society"
   doi: "10.57750/4y84-4t68"
-  url: https://computo.sfds.asso.fr/
+  url: https://computo.sfds.asso.fr/published-202407-legrand-wildfires/
+  pdf-url: https://computo.sfds.asso.fr/published-202407-legrand-wildfires/published-202407-legrand-wildfires.pdf
 bibliography: references.bib
+google-scholar: true
 github-user: computorg
-repo: "published-202407-lefgrand-wildfires"
-draft: false # set to false once the build is running
-published: true # will be set to true once accepted
+repo: published-202407-legrand-wildfires
+draft: false
+published: true
 format:
   computo-html: default
   computo-pdf: default
