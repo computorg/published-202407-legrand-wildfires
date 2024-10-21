@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.25">
+<meta name="generator" content="quarto-1.6.28">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -89,10 +89,12 @@ div.csl-indent {
 <script src="published-202407-legrand-wildfires_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="published-202407-legrand-wildfires_files/libs/quarto-html/anchor.min.js"></script>
 <link href="published-202407-legrand-wildfires_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="published-202407-legrand-wildfires_files/libs/quarto-html/quarto-syntax-highlighting-6f7931aacaeb22aa467d6667c6f1725d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="published-202407-legrand-wildfires_files/libs/quarto-html/quarto-syntax-highlighting-2aaf1cca91db9171dfb74ca612862753.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="published-202407-legrand-wildfires_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="published-202407-legrand-wildfires_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="published-202407-legrand-wildfires_files/libs/bootstrap/bootstrap-bd987972e5885778c45a80ac90485a07.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="published-202407-legrand-wildfires_files/libs/bootstrap/bootstrap-6b9f26d6dc2bf9192edf8c336a422e78.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="published-202407-legrand-wildfires_files/libs/quarto-contrib/pseudocode-2.4.1/pseudocode.min.js"></script>
+<link href="published-202407-legrand-wildfires_files/libs/quarto-contrib/pseudocode-2.4.1/pseudocode.min.css" rel="stylesheet">
 <style>
 
       .quarto-title-block .quarto-title-banner h1,
@@ -285,7 +287,7 @@ ISSN 2824-7795</p>
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">October 13, 2024</p>
+        <p class="date-modified">October 21, 2024</p>
       </div>
     </div>
       
@@ -3191,6 +3193,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
+    <script type="text/javascript">
+    (function(d) {
+      d.querySelectorAll(".pseudocode-container").forEach(function(el) {
+        let pseudocodeOptions = {
+          indentSize: el.dataset.indentSize || "1.2em",
+          commentDelimiter: el.dataset.commentDelimiter || "//",
+          lineNumber: el.dataset.lineNumber === "true" ? true : false,
+          lineNumberPunc: el.dataset.lineNumberPunc || ":",
+          noEnd: el.dataset.noEnd === "true" ? true : false,
+          titlePrefix: el.dataset.captionPrefix || "Algorithm"
+        };
+        pseudocode.renderElement(el.querySelector(".pseudocode"), pseudocodeOptions);
+      });
+    })(document);
+    (function(d) {
+      d.querySelectorAll(".pseudocode-container").forEach(function(el) {
+        let captionSpan = el.querySelector(".ps-root > .ps-algorithm > .ps-line > .ps-keyword")
+        if (captionSpan !== null) {
+          let captionPrefix = el.dataset.captionPrefix + " ";
+          let captionNumber = "";
+          if (el.dataset.pseudocodeNumber) {
+            captionNumber = el.dataset.pseudocodeNumber + " ";
+            if (el.dataset.chapterLevel) {
+              captionNumber = el.dataset.chapterLevel + "." + captionNumber;
+            }
+          }
+          captionSpan.innerHTML = captionPrefix + captionNumber;
+        }
+      });
+    })(document);
+    </script>
+  
 
 
 
