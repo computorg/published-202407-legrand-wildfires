@@ -1,1 +1,1 @@
-sudo apt install -y libgdal-dev gdal-bin
+sudo install -y libudunits2-dev libgdal-dev libgeos-dev libproj-dev libsqlite3-dev
