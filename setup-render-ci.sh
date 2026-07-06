@@ -1,1 +1,1 @@
-sudo apt install -y libudunits2-dev libgdal-dev libgeos-dev libproj-dev libsqlite3-dev libabsl-dev
+sudo apt install -y libudunits2-dev libgdal-dev libgeos-dev libproj-dev libsqlite3-dev libabsl-dev cmake gdal-bin pandoc
