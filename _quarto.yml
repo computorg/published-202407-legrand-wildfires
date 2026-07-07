@@ -13,13 +13,16 @@ author:
     affiliation: Biostatistics and Spatial Processes, INRAE, Avignon, France
     affiliation-url: https://biosp.mathnum.inrae.fr/
   - name: François Pimont
+    orcid: 0000-0002-9842-6207
     affiliation: Ecologie des Forêts Méditerranéennes (URFM), INRAE, Avignon, France
     affiliation-url: https://www6.paca.inrae.fr/ecologie_des_forets_mediterraneennes/Les-personnes/Personnels-permanents/DUPUY-Jean-Luc
   - name: Jean-Luc Dupuy
     url: https://biosp.mathnum.inrae.fr/homepage-thomas-opitz
+    orcid: 0000-0002-2192-8057
     affiliation: Ecologie des Forêts Méditerranéennes (URFM), INRAE, Avignon, France
   - name: Thomas Opitz
     url: https://biosp.mathnum.inrae.fr/homepage-thomas-opitz
+    orcid: 0000-0002-5863-5020
     affiliation: Biostatistics and Spatial Processes, INRAE, Avignon, France
     affiliation-url: https://biosp.mathnum.inrae.fr/
 date: 07/12/2024
@@ -32,5 +35,9 @@ citation:
   doi: "10.57750/4y84-4t68"
   issn: "2824-7795"
   url: "https://computo-journal.org/published-202407-legrand-wildfires/"
+related-identifiers:
+  - relation: IsVersionOf
+    type: URL
+    identifier: "https://hal.science/hal-04084123"
 github-user: computorg
 repo: published-202407-legrand-wildfires
