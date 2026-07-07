@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: If you use or cite this article, please use the metadata provided in 'preferred-citation'.
+title: Bayesian spatiotemporal modelling of wildfire occurrences and sizes for projections
+  under climate change
+authors:
+- family-names: Legrand
+  given-names: Juliette
+  affiliation: Biostatistics and Spatial Processes, INRAE, Avignon, France
+- family-names: Pimont
+  given-names: François
+  orcid: https://orcid.org/0000-0002-9842-6207
+  affiliation: Ecologie des Forêts Méditerranéennes (URFM), INRAE, Avignon, France
+- family-names: Dupuy
+  given-names: Jean-Luc
+  orcid: https://orcid.org/0000-0002-2192-8057
+  affiliation: Ecologie des Forêts Méditerranéennes (URFM), INRAE, Avignon, France
+- family-names: Opitz
+  given-names: Thomas
+  orcid: https://orcid.org/0000-0002-5863-5020
+  affiliation: Biostatistics and Spatial Processes, INRAE, Avignon, France
+url: https://computo-journal.org/published-202407-legrand-wildfires/
+preferred-citation:
+  type: article
+  title: Bayesian spatiotemporal modelling of wildfire occurrences and sizes for projections
+    under climate change
+  authors:
+  - family-names: Legrand
+    given-names: Juliette
+    affiliation: Biostatistics and Spatial Processes, INRAE, Avignon, France
+  - family-names: Pimont
+    given-names: François
+    orcid: https://orcid.org/0000-0002-9842-6207
+    affiliation: Ecologie des Forêts Méditerranéennes (URFM), INRAE, Avignon, France
+  - family-names: Dupuy
+    given-names: Jean-Luc
+    orcid: https://orcid.org/0000-0002-2192-8057
+    affiliation: Ecologie des Forêts Méditerranéennes (URFM), INRAE, Avignon, France
+  - family-names: Opitz
+    given-names: Thomas
+    orcid: https://orcid.org/0000-0002-5863-5020
+    affiliation: Biostatistics and Spatial Processes, INRAE, Avignon, France
+  journal: Computo
+  issn: 2824-7795
+  url: https://computo-journal.org/published-202407-legrand-wildfires/
+  publisher:
+    name: French Statistical Society
+  doi: 10.57750/4y84-4t68
+  year: 2024
+doi: 10.57750/4y84-4t68
+date-released: '2024-07-01'
