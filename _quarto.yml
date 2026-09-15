@@ -44,3 +44,10 @@ related-identifiers:
     identifier: "https://hal.science/hal-04084123"
 github-user: computorg
 repo: published-202407-legrand-wildfires
+subtitle: "A step-by-step marked point process approach using INLA-SPDE"
+date-modified: last-modified
+keywords: [Climate projection, Integrated Nested Laplace Approximation, Marked log-Gaussian Cox process, Spatiotemporal model, SPDE approach, Wildfire]
+bibliography: references.bib
+format:
+  computo-html: default
+  computo-pdf: default
