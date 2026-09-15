@@ -72,3 +72,6 @@ cache/
 .DS_Store
 .claude/
 # <<< computorg base <<<
+
+# Repository-specific entries
+fire_data.zip
